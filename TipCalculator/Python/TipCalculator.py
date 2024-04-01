@@ -8,9 +8,9 @@ def tipCalc(x,y):
 
     totalBill = x + tipAmount
 
-    print("Cost of meal: $" + str(x) + ".\n")
+    print("Cost of meal: " + "${:,.2f}".format(x) + ".\n")
     print("Tip percentage: " + str(y) + "%.\n")
-    print("Tip amount: $" + str(tipAmount) + ".\n")
-    print("Total cost: $" + str(totalBill) + ".\n")
+    print("Tip amount: " + "${:,.2f}".format(tipAmount) + ".\n")
+    print("Total cost: " + "${:,.2f}".format(totalBill) + ".\n")
 
 tipCalc(cost, tip)
