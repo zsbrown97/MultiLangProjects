@@ -1,0 +1,1 @@
+/Users/brownz/Documents/Personal/MultiLangProjects/TipCalculator/Rust/tip_calculator/target/debug/tip_calculator: /Users/brownz/Documents/Personal/MultiLangProjects/TipCalculator/Rust/tip_calculator/src/main.rs
