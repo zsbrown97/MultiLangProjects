@@ -6,10 +6,11 @@ A repo for learning new languages by recreating simple projects in each language
 - C#
 - C++
 - Java
-- JavaScript
+- JavaScript/TypeScript
 - Python
 - Rust
 
 ## Projects
 - Hello World
 - Fibonacci Sequence
+- String Splicing
