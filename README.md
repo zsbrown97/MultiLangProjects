@@ -1,6 +1,6 @@
 # MultiLangProjects
 
-A repo for learning new languages by recreating simple projects in each languages
+A repo for learning new languages by recreating simple projects in different languages
 
 ## Languages
 - C#
@@ -14,3 +14,6 @@ A repo for learning new languages by recreating simple projects in each language
 - Hello World
 - Fibonacci Sequence
 - String Splicing
+
+## To-Do
+- Tip Calculator
