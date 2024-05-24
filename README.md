@@ -18,6 +18,4 @@ A repo for learning new languages by recreating simple projects in different lan
 - Hello World
 - Palindrome Checker
 - String Splicing
-
-## To-Do
 - Tip Calculator
