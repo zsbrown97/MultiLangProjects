@@ -11,8 +11,12 @@ A repo for learning new languages by recreating simple projects in different lan
 - Rust
 
 ## Projects
-- Hello World
+- Binary to Decimal
+- Decimal to Binary
 - Fibonacci Sequence
+- FizzBuzz
+- Hello World
+- Palindrome Checker
 - String Splicing
 
 ## To-Do
