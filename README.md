@@ -17,5 +17,6 @@ A repo for learning new languages by recreating simple projects in different lan
 - FizzBuzz
 - Hello World
 - Palindrome Checker
+- Prime Number Checker
 - String Splicing
 - Tip Calculator
