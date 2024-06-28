@@ -8,7 +8,7 @@ const umActually = (phrase: string): string => {
     if (loweredPhrase[i].match(/[^A-Za-z0-9]/g)) {
       finalPhrase += loweredPhrase[i];
     } else {
-      // Capitalizes every other letter
+      // Capitalizes every third letter
       if (i % 3 == 0) {
         finalPhrase += loweredPhrase[i].toUpperCase()
       } else {

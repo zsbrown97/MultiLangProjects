@@ -7,7 +7,7 @@ var umActually = function (phrase) {
             finalPhrase += loweredPhrase[i];
         }
         else {
-            // Capitalizes every other letter
+            // Capitalizes every third letter
             if (i % 3 == 0) {
                 finalPhrase += loweredPhrase[i].toUpperCase();
             }
