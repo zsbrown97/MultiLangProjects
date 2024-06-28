@@ -9,7 +9,7 @@ const umActually = (phrase: string): string => {
       finalPhrase += loweredPhrase[i];
     } else {
       // Capitalizes every other letter
-      if (i % 2 == 0) {
+      if (i % 3 == 0) {
         finalPhrase += loweredPhrase[i].toUpperCase()
       } else {
         finalPhrase += loweredPhrase[i];

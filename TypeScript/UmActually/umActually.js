@@ -1,7 +1,3 @@
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
-console.log(getRandomInt(2));
 var umActually = function (phrase) {
     var loweredPhrase = phrase.toLowerCase();
     var finalPhrase = '';
@@ -12,7 +8,7 @@ var umActually = function (phrase) {
         }
         else {
             // Capitalizes every other letter
-            if (i % 2 == 0) {
+            if (i % 3 == 0) {
                 finalPhrase += loweredPhrase[i].toUpperCase();
             }
             else {
