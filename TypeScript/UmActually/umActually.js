@@ -1,11 +1,17 @@
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+console.log(getRandomInt(2));
 var umActually = function (phrase) {
     var loweredPhrase = phrase.toLowerCase();
     var finalPhrase = '';
     for (var i = 0; i < loweredPhrase.length; i++) {
+        // Passes spaces and symbols straight to the final string
         if (loweredPhrase[i].match(/[^A-Za-z0-9]/g)) {
             finalPhrase += loweredPhrase[i];
         }
         else {
+            // Capitalizes every other letter
             if (i % 2 == 0) {
                 finalPhrase += loweredPhrase[i].toUpperCase();
             }
@@ -15,6 +21,6 @@ var umActually = function (phrase) {
         }
     }
     console.log(finalPhrase);
-    return phrase;
+    return finalPhrase;
 };
 umActually('Inertia is a property of matter');
