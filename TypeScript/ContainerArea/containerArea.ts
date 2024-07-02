@@ -21,20 +21,20 @@ function maxArea(height: number[]): number {
 
 // Two-pointer solution
 function maxAreaTwoPointer(height: number[]): number {
-  let max: number = 0;
-    let left: number = 0;
-    let right = height.length - 1;
+  let maximum: number = 0;
+  let left: number = 0;
+  let right = height.length - 1;
 
-    while (left < right) {
-        max = Math.max(max, (right - left) * Math.min(height[left], height[right]));
+  while (left < right) {
+    maximum = Math.max(maximum, (right - left) * Math.min(height[left], height[right]));
 
-        if (height[left] < height[right]) {
-            left++;
-        } else {
-            right--;
-        }
+    if (height[left] < height[right]) {
+      left++;
+    } else {
+      right--;
     }
-    return max
+  }
+  return maximum
 }
 
 let case1: number[] = [1,8,6,2,5,4,8,3,7];
