@@ -1,3 +1,4 @@
+// My original solution
 function maxArea(height) {
     var maximum = 0;
     for (var i = 0; i < height.length; i++) {
@@ -14,7 +15,25 @@ function maxArea(height) {
     }
     return maximum;
 }
+// Two-pointer solution
+function maxAreaTwoPointer(height) {
+    var max = 0;
+    var left = 0;
+    var right = height.length - 1;
+    while (left < right) {
+        max = Math.max(max, (right - left) * Math.min(height[left], height[right]));
+        if (height[left] < height[right]) {
+            left++;
+        }
+        else {
+            right--;
+        }
+    }
+    return max;
+}
 var case1 = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 var case2 = [1, 1];
 console.log(maxArea(case1)); // Expecting 49
 console.log(maxArea(case2)); // Expecting 1
+console.log(maxAreaTwoPointer(case1));
+console.log(maxAreaTwoPointer(case2));
