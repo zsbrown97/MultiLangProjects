@@ -1,62 +1,67 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
   background-color: #f0f0f0;
+  display: flex;
+  font-family: Archer, Arial, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
-  max-width: 19rem; /* Adjust the width if needed */
-  width: 100%;
-  overflow: hidden; /* Ensure no border around the image */
+  display: flex;
+  flex-direction: column;
+  height: 28rem;
+  overflow: hidden;
   transition: transform 0.3s ease;
+  width: 18rem;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-0.25rem);
 }
 
-.icon {
-  width: 100%; /* Ensure the image container takes up the full width */
-  margin: 0; /* Remove any margin */
-}
-
-.icon img {
-  width: 100%;
-  height: auto;
-  display: block; /* Remove any space around the image */
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .content {
-  text-align: left;
-  padding: 1.25rem; /* Padding only for the text content */
+  background-color: #c41e5b;
+  height: 100%;
+  padding: 1.25rem;
+  text-align: center;
+  width: 100%;
 }
 
 .content h3 {
+  color: #fff;
+  font-size: 1.75em;
   margin: 0;
-  font-size: 1.25em;
 }
 
 .content p {
-  margin: 0.75rem 0 0;
   font-size: 1em;
-  color: #666;
-  opacity: 0;
-  max-height: 0;
+  margin: 0.75rem 0 0;
+  max-height: 6.25rem;
+  opacity: 1;
   overflow: hidden;
   transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
-.content p {
-  opacity: 1;
-  max-height: 6.25rem;
+.image {
+  height: 20rem;
+  margin: 0;
+  width: 100%;
+}
+
+.image img {
+  overflow: hidden;
+  width: 18rem;
 }
