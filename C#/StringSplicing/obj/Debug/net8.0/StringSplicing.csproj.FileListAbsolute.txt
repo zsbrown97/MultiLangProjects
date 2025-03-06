@@ -1,0 +1,15 @@
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/bin/Debug/net8.0/StringSplicing
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/bin/Debug/net8.0/StringSplicing.deps.json
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/bin/Debug/net8.0/StringSplicing.runtimeconfig.json
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/bin/Debug/net8.0/StringSplicing.dll
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/bin/Debug/net8.0/StringSplicing.pdb
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.AssemblyInfoInputs.cache
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.AssemblyInfo.cs
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.csproj.CoreCompileInputs.cache
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.sourcelink.json
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.dll
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/refint/StringSplicing.dll
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.pdb
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/StringSplicing.genruntimeconfig.cache
+/Users/zack/Documents/Projects/MultiLangProjects/C#/StringSplicing/obj/Debug/net8.0/ref/StringSplicing.dll
