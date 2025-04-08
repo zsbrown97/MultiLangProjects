@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StringSplicing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+553a5cb2f0a3f25e747e96d56cae7524930936b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d42b592db9f0fd6c79a54e0a17e9e78f7bb22aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("StringSplicing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StringSplicing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
